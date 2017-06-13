@@ -99,7 +99,7 @@ game.States.start = function () {
         /**
          * check swipe
          * */
-        this.swipe = new Swipe(this.game, this.swipeCheck);
+        this.swipe = new Swipe(game, this.swipeCheck);
         /**
          * 不同数字不同的颜色
          * */
